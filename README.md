@@ -1,8 +1,8 @@
 # Adobe Premiere Pro .prfpset File Format Analysis
 
-🔬 **Research Project**: Reverse Engineering Adobe Premiere Pro Effect Preset Files
+**Research Project**: Reverse Engineering Adobe Premiere Pro Effect Preset Files
 
-## ⚠️ Legal Disclaimer
+## Legal Disclaimer
 
 This project is for **educational and research purposes only**. 
 
@@ -12,7 +12,7 @@ This project is for **educational and research purposes only**.
 - **NOT for commercial use** - users assume all risks
 - No Adobe proprietary code is included or distributed
 
-## 🎯 Project Overview
+## Project Overview
 
 A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifically focusing on:
 
@@ -21,7 +21,7 @@ A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifi
 - Base64-encoded Bezier curve data
 - Copy/Paste workflow between effects
 
-## 🔍 Key Discoveries
+## Key Discoveries
 
 ### XML Structure Analysis
 - `.prfpset` files use XML format with specific Adobe schemas
@@ -35,7 +35,7 @@ A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifi
 - Binary signature: `3263696e02000000` (hex)
 - Contains position, control points, and curve parameters
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── analysis/
@@ -53,7 +53,7 @@ A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifi
     └── file-format.md                # File format specification
 ```
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Parser Features
 - Complete .prfpset XML parsing
@@ -67,7 +67,7 @@ A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifi
 - Mask-to-Transform workflow automation
 - Support for Position, Rotation, Scale properties
 
-## 🔬 Research Methodology
+## Research Methodology
 
 1. **File Collection**: Various .prfpset files from different scenarios
 2. **XML Analysis**: Manual inspection and automated parsing
@@ -75,7 +75,7 @@ A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifi
 4. **Workflow Testing**: Copy/Paste behavior verification
 5. **Cross-Reference**: Comparison with official Adobe behavior
 
-## 📊 Analysis Results
+## Analysis Results
 
 ### Supported Effects
 - `AE.ADBE Gaussian Blur 2` (Gaussian Blur with mask)
@@ -88,7 +88,7 @@ A comprehensive analysis of Adobe Premiere Pro's `.prfpset` file format, specifi
 - **Encoding**: Base64 with checksum verification
 - **Keyframe Count**: Variable (typically 30 for 1-second clips)
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### Basic Parser Usage
 ```javascript
@@ -103,18 +103,18 @@ console.log(`Found ${maskData.keyframes.length} keyframes`);
 3. Select target properties (Position/Rotation/Scale)
 4. Apply to selected clip's Transform effect
 
-## 🔗 Related Projects
+## Related Projects
 
 - [Adobe CEP Samples](https://github.com/Adobe-CEP/CEP-Resources)
 - [Premiere Pro Scripting Guide](https://github.com/docsforadobe/premiere-scripting-guide)
 
-## 📜 License
+## License
 
 This research project is released under MIT License for educational purposes.
 
 **Important**: Commercial use may require additional legal review regarding Adobe's intellectual property rights.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome for:
 - Additional .prfpset file analysis
@@ -124,7 +124,7 @@ Contributions welcome for:
 
 Please ensure all contributions maintain the educational/research focus.
 
-## 📧 Contact
+## Contact
 
 For research collaboration or questions about the analysis methodology.
 

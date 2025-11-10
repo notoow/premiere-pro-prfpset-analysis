@@ -1,12 +1,12 @@
-# 📋 .prfpset 파일 완전 해체 분석 보고서
+# .prfpset 파일 완전 해체 분석 보고서
 
-## 🎯 개요
+## 개요
 Adobe Premiere Pro의 .prfpset 파일은 효과 프리셋을 저장하는 XML 기반 형식입니다.  
 마스크 트래킹 데이터가 포함된 가우시안 블러 효과의 구조를 완전히 해체 분석했습니다.
 
 ---
 
-## 📁 분석 대상 파일
+##  분석 대상 파일
 - **파일명**: `마스크 있는 가우시안 블러.prfpset`
 - **크기**: 27,030 bytes
 - **포함 효과**: AE.ADBE Gaussian Blur 2 + Mask Component
@@ -14,7 +14,7 @@ Adobe Premiere Pro의 .prfpset 파일은 효과 프리셋을 저장하는 XML �
 
 ---
 
-## 🏗️ XML 구조 분석
+##  XML 구조 분석
 
 ### 1. 루트 구조
 ```xml
@@ -48,7 +48,7 @@ PremiereData
 
 ---
 
-## 🔍 마스크 키프레임 데이터 구조
+##  마스크 키프레임 데이터 구조
 
 ### 키프레임 패턴
 각 키프레임은 **2개의 XML 자식 요소**로 구성:
@@ -74,7 +74,7 @@ PremiereData
 
 ---
 
-## 📊 키프레임 완전 목록
+##  키프레임 완전 목록
 
 | 인덱스 | 시간(초) | Position(ticks) | Base64 데이터 (처음 20자) | Checksum |
 |--------|----------|-----------------|-------------------------|-----------|
@@ -91,7 +91,7 @@ PremiereData
 
 ---
 
-## 🎭 마스크 데이터 디코딩 분석
+##  마스크 데이터 디코딩 분석
 
 ### Base64 → Binary 변환
 ```javascript
@@ -111,7 +111,7 @@ Bytes 16+:   베지어 제어점 좌표들 (Float32 형태)
 
 ---
 
-## 🔄 Copy/Paste 워크플로우
+##  Copy/Paste 워크플로우
 
 ### 1. Copy 과정 (가우시안 블러 → 클립보드)
 ```
@@ -136,7 +136,7 @@ Bytes 16+:   베지어 제어점 좌표들 (Float32 형태)
 
 ---
 
-## 📋 다른 .prfpset 파일과의 비교
+##  다른 .prfpset 파일과의 비교
 
 ### `변형.prfpset` (Transform 프리셋)
 - **FilterMatchName**: `AE.ADBE Geometry2`
@@ -150,7 +150,7 @@ Bytes 16+:   베지어 제어점 좌표들 (Float32 형태)
 
 ---
 
-## 🛠️ 구현 요점
+##  구현 요점
 
 ### XML 파싱 핵심
 ```javascript
@@ -185,7 +185,7 @@ for (let i = 0; i < binaryData.length; i++) {
 
 ---
 
-## 🎯 결론
+##  결론
 
 1. **.prfpset 파일은 XML 기반**으로 효과와 키프레임을 저장
 2. **마스크 데이터는 ObjectID="20"**에 베지어 곡선으로 저장
@@ -198,5 +198,5 @@ for (let i = 0; i < binaryData.length; i++) {
 ---
 
 **📅 분석 일자**: 2025-11-10  
-**🔍 분석자**: Claude Code Assistant  
+**🔍 분석자**: notoow  
 **📁 분석 도구**: XML 파싱, Hex 분석, Base64 디코딩
