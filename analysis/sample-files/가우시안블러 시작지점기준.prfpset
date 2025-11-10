@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Tree ObjectRef="1"/>
+	<Tree ObjectID="1" ClassID="177f2841-dd5b-43bd-9d9a-79e231bd47dd" Version="1">
+		<Node Version="1">
+		</Node>
+		<RootBin ObjectRef="2"/>
+	</Tree>
+	<BinTreeItem ObjectID="2" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<Items Version="1">
+			<Item Index="0" ObjectRef="3"/>
+		</Items>
+		<Expanded>false</Expanded>
+		<Sorted>false</Sorted>
+		<TreeItemBase Version="4">
+			<Node Version="1">
+			</Node>
+			<Name>Root</Name>
+			<Locked>false</Locked>
+		</TreeItemBase>
+	</BinTreeItem>
+	<BinTreeItem ObjectID="3" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<Items Version="1">
+			<Item Index="0" ObjectRef="5"/>
+		</Items>
+		<Expanded>true</Expanded>
+		<Sorted>true</Sorted>
+		<TreeItemBase Version="4">
+			<Node Version="1">
+				<Properties Version="1">
+					<HandlerEffects.EffectItemTree.PresetsBin>1</HandlerEffects.EffectItemTree.PresetsBin>
+				</Properties>
+			</Node>
+			<Name>Presets</Name>
+			<Data ObjectRef="4"/>
+			<Locked>false</Locked>
+		</TreeItemBase>
+	</BinTreeItem>
+	<EffectBinItem ObjectID="4" ClassID="5f513d71-0018-4405-a10b-bf5597f99960" Version="1">
+		<Flavor>1</Flavor>
+	</EffectBinItem>
+	<TreeItem ObjectID="5" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Node Version="1">
+				<Properties Version="1">
+					<MZ.EffectPresets.PresetUID>da82261c-acee-488a-b953-c69ccf99b44c</MZ.EffectPresets.PresetUID>
+				</Properties>
+			</Node>
+			<Name>1</Name>
+			<Data ObjectRef="6"/>
+			<Locked>false</Locked>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="6" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<EffectItem Version="1">
+			<EffectFlavor>5</EffectFlavor>
+			<EffectIsShorcut>false</EffectIsShorcut>
+		</EffectItem>
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="7"/>
+		</FilterPresets>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="7" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Description></Description>
+		<FilterMatchName>AE.ADBE Gaussian Blur 2</FilterMatchName>
+		<Component ObjectRef="8"/>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<AnchorInPoint>0</AnchorInPoint>
+		<AnchorOutPoint>254016000000</AnchorOutPoint>
+		<Speed>1.</Speed>
+		<TransitionDuration>0</TransitionDuration>
+		<Node Version="1">
+		</Node>
+		<Type>1</Type>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="8" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="9">
+		<Component Version="6">
+			<Bypass>false</Bypass>
+			<DisplayName>가우시안 흐림</DisplayName>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="9"/>
+				<Param Index="1" ObjectRef="10"/>
+				<Param Index="2" ObjectRef="11"/>
+			</Params>
+			<Intrinsic>false</Intrinsic>
+			<InstanceName>블러 가우시안 ㅂㄹ ㄱㅇㅅd qf rdtd</InstanceName>
+			<ArchivedType>0</ArchivedType>
+			<Node Version="1">
+			</Node>
+			<ID>0</ID>
+		</Component>
+		<MatchName>AE.ADBE Gaussian Blur 2</MatchName>
+		<VideoFilterType>2</VideoFilterType>
+		<SubComponents Version="1">
+			<SubComponent Index="0" ObjectRef="12"/>
+		</SubComponents>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="9" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,90.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>90.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>30000.</UpperBound>
+		<LowerUIBound>50.</LowerUIBound>
+		<UpperUIBound>50.</UpperUIBound>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>흐림</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="10" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<ParameterControlType>7</ParameterControlType>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0</CurrentValue>
+		<LowerBound>0</LowerBound>
+		<UpperBound>2</UpperBound>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>흐림 차원</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="11" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>4</ParameterControlType>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>3</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name> </Name>
+	</VideoComponentParam>
+	<VideoFilterComponent ObjectID="12" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="9">
+		<Component Version="6">
+			<Bypass>false</Bypass>
+			<DisplayName>마스크</DisplayName>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="13"/>
+				<Param Index="1" ObjectRef="14"/>
+				<Param Index="2" ObjectRef="15"/>
+				<Param Index="3" ObjectRef="16"/>
+				<Param Index="4" ObjectRef="17"/>
+				<Param Index="5" ObjectRef="18"/>
+				<Param Index="6" ObjectRef="19"/>
+				<Param Index="7" ObjectRef="20"/>
+				<Param Index="8" ObjectRef="21"/>
+				<Param Index="9" ObjectRef="22"/>
+				<Param Index="10" ObjectRef="23"/>
+				<Param Index="11" ObjectRef="24"/>
+				<Param Index="12" ObjectRef="25"/>
+				<Param Index="13" ObjectRef="26"/>
+				<Param Index="14" ObjectRef="27"/>
+				<Param Index="15" ObjectRef="28"/>
+				<Param Index="16" ObjectRef="29"/>
+				<Param Index="17" ObjectRef="30"/>
+			</Params>
+			<Intrinsic>false</Intrinsic>
+			<InstanceName>1</InstanceName>
+			<ArchivedType>0</ArchivedType>
+			<Node Version="1">
+			</Node>
+			<ID>0</ID>
+		</Component>
+		<MatchName>AE.ADBE AEMask</MatchName>
+		<VideoFilterType>2</VideoFilterType>
+		<PremiereFilterPrivateData Encoding="base64" Checksum="3331743306">a2NpbgEAAAAAAAAAAAAAAAAAAAAAAAAAG6gwRLNjfEMAgDBEAAB8Q4Dl+f//////AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</PremiereFilterPrivateData>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="13" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>11</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="14" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>16</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="15" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>16</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>3</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="16" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>16</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>4</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="17" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>16</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>14</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="18" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>16</ParameterControlType>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>15</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="19" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>12</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>false</UpperBound>
+		<ParameterID>5</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="20" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="2">
+		<kf.23.position>194745600000 </kf.23.position>
+		<kf.4.position>33868800000 </kf.4.position>
+		<kf.22.position>186278400000 </kf.22.position>
+		<kf.25.position>211680000000 </kf.25.position>
+		<kf.9.position>76204800000 </kf.9.position>
+		<kf.26.position>220147200000 </kf.26.position>
+		<kf.29.position>245548800000 </kf.29.position>
+		<kf.2.position>16934400000 </kf.2.position>
+		<kf.1.position>8467200000 </kf.1.position>
+		<kf.16.position>135475200000 </kf.16.position>
+		<kf.15.position>127008000000 </kf.15.position>
+		<kf.3.position>25401600000 </kf.3.position>
+		<kf.19.position>160876800000 </kf.19.position>
+		<kf.20.position>169344000000 </kf.20.position>
+		<kf.17.position>143942400000 </kf.17.position>
+		<kf.13.position>110073600000 </kf.13.position>
+		<kf.24.position>203212800000 </kf.24.position>
+		<kf.8.position>67737600000 </kf.8.position>
+		<kf.12.position>101606400000 </kf.12.position>
+		<kf.7.position>59270400000 </kf.7.position>
+		<kf.5.position>42336000000 </kf.5.position>
+		<kf.18.position>152409600000 </kf.18.position>
+		<kf.14.position>118540800000 </kf.14.position>
+		<kf.11.position>93139200000 </kf.11.position>
+		<kf.21.position>177811200000 </kf.21.position>
+		<kf.0.position>0 </kf.0.position>
+		<kf.28.position>237081600000 </kf.28.position>
+		<kf.10.position>84672000000 </kf.10.position>
+		<kf.6.position>50803200000 </kf.6.position>
+		<kf.27.position>228614400000 </kf.27.position>
+		<kf.22.value Encoding="base64" Checksum="1374422433">MmNpbgIAAAABAAAABAAAAAEAAAAXj7M+w1OLPmgbqz7g0ok+vwK8PqXUjD4BAAAAAQAAAHhdwT6136k+JjHCPsSBmj7FicA+pj25PgEAAAABAAAAe5CwPtz5wj4tBLk+wHrEPtEcqD7zeME+AQAAAAEAAAAcwqI+5G2kPmjuoT7Yy7M+z5WjPvIPlT4BAAAA</kf.22.value>
+		<kf.21.value Encoding="base64" Checksum="584195489">MmNpbgIAAAABAAAABAAAAAEAAACfsrM+J8KNPutHqz7qcow+TR28PmIRjz4BAAAAAQAAADGiwT6j1qs+j1rCPgWJnD7N6cA+QiS7PgEAAAABAAAA6BaxPiItxT6fgbk+YHzGPjisqD7g3cM+AQAAAAEAAABYJ6M+nxinPvRuoj5AZrY+vd+jPgDLlz4BAAAA</kf.21.value>
+		<kf.20.value Encoding="base64" Checksum="2833665953">MmNpbgIAAAABAAAABAAAAAEAAABmtbM+/eGQPhtcqz73oI8+qw68PgIjkj4BAAAAAQAAAJqTwT5ro64+J0TCPnV1nz4H48A+YtG9PgEAAAABAAAAADaxPlXaxz5Nj7k+WxvJPrncqD5JmcY+AQAAAAEAAADOV6M+4BiqPjunoj7ZRrk+YgikPurqmj4BAAAA</kf.20.value>
+		<kf.28.value Encoding="base64" Checksum="956585889">MmNpbgIAAAABAAAABAAAAAEAAAC097M+yoOKPgeIqz4ks4g+Xme8PmxUjD4BAAAAAQAAAGtvwT76kqk+9m7CPlA8mj7cb8A+p+m4PgEAAAABAAAAP1qwPosPwj7xybg+M+DDPpfqpz7oPsA+AQAAAAEAAACK4qI+VgCjPvrioT4EV7I+H+KjPqqpkz4BAAAA</kf.28.value>
+		<kf.29.value Encoding="base64" Checksum="4079262625">MmNpbgIAAAABAAAABAAAAAEAAACyWbQ+PLGKPvLuqz4W9Ig+b8S8Pl1ujD4BAAAAAQAAAOfbwT7ijKk+uNDCPi8/mj4S58A+mdq4PgEAAAABAAAAE+OwPogcwj7XTbk+sNnDPlh4qD5mX8A+AQAAAAEAAADfYKM+20CjPgpsoj6TjrI+u1WkPibzkz4BAAAA</kf.29.value>
+		<kf.19.value Encoding="base64" Checksum="3174984353">MmNpbgIAAAABAAAABAAAAAEAAADYerM+oTWQPjYYqz7o1Y4+c927PliVkT4BAAAAAQAAAGNLwT5gTa4+0wzCPnEOnz7uicA+U4y9PgEAAAABAAAAT76wPnVrxz7zILk+LMvIPrJbqD64C8Y+AQAAAAEAAADG7aI+rVOpPlEsoj6hkrg+O6+jPr4Umj4BAAAA</kf.19.value>
+		<kf.17.value Encoding="base64" Checksum="2542055073">MmNpbgIAAAABAAAABAAAAAEAAADnQ7M+SkuWPqOXqj7Jk5U+I/C7PsgClz4BAAAAAQAAAEtBwj7ZJLQ+NqbCPgtgpD5c3ME+renDPgEAAAABAAAAa9axPu1lzz6xgro+bB3QPisqqT5ors4+AQAAAAEAAAAI2aI+VYyxPhl0oj4oUcE+9j2jPoXHoT4BAAAA</kf.17.value>
+		<kf.18.value Encoding="base64" Checksum="679264929">MmNpbgIAAAABAAAABAAAAAEAAAC2RLM+/e+SPriaqj74+5E+rO67PgDkkz4BAAAAAQAAALcBwj6kL7E+64fCPvhuoT5/e8E+VvDAPgEAAAABAAAAsV6xPqn7yz6wCLo+rO/MPre0qD6fB8s+AQAAAAEAAACwoaI++LutPngboj6rfL0+6CejPkv7nT4BAAAA</kf.18.value>
+		<kf.16.value Encoding="base64" Checksum="1775121825">MmNpbgIAAAABAAAABAAAAAEAAACzRbQ+aW2YPpW/qz5Fe5c+yMu8PopfmT4BAAAAAQAAAJ7Dwj6MM7Y+yUjDPhu0pj5vPsI+A7PFPgEAAAABAAAAbWOyPtyM0D6L6bo+/37RPlPdqT6zms8+AQAAAAEAAACD5aM+sMayPlRgoz4lRsI+sWqkPj1Hoz4BAAAA</kf.16.value>
+		<kf.15.value Encoding="base64" Checksum="3610569377">MmNpbgIAAAABAAAABAAAAAEAAABPArU+S7GYPk9arD7875c+R6q9PphymT4BAAAAAQAAADbuwz6TjrY+h1jEPoXRpj7jg8M+pkvGPgEAAAABAAAAS4GzPtyv0T5LKbw+KHHSPk7Zqj6G7tA+AQAAAAEAAABllaQ+jNKzPhErpD6cj8M+uP+kPnwVpD4BAAAA</kf.15.value>
+		<kf.7.value Encoding="base64" Checksum="509569185">MmNpbgIAAAABAAAABAAAAAEAAAB2p7g+eaOTPn1bsD6qp5I+avPAPkeflD4BAAAAAQAAAHmyxj6+u7A+9zzHPv6loT74J8Y+g9G/PgEAAAABAAAA67G2PilEyj7j/b4+9T/LPvNlrj5SSMk+AQAAAAEAAADnpqg+2yutPmccqD6bQbw+ZzGpPhsWnj4BAAAA</kf.7.value>
+		<kf.14.value Encoding="base64" Checksum="2985202337">MmNpbgIAAAABAAAABAAAAAEAAAC8C7U+ZmmYPiRXrD4oqpc+TMC9PqEomT4BAAAAAQAAAH8QxD5jbLY+rXnEPm+Ypj5Pp8M+XEDGPgEAAAABAAAA146zPuK60T5uQ7w+G3rSPkLaqj6d+9A+AQAAAAEAAAAUiqQ+27ezPuQgpD7Si8M+RPOkPubjoz4BAAAA</kf.14.value>
+		<kf.13.value Encoding="base64" Checksum="643042977">MmNpbgIAAAABAAAABAAAAAEAAADV37U+5bKWPthUrT5K85U+yWq+Pn1ylz4BAAAAAQAAAOOYxD6QLbQ+RALFPkOlpD5/L8Q+47XDPgEAAAABAAAANGK0Pmvyzj4v7bw+ArLPPjvXqz7JMs4+AQAAAAEAAAAmqaU+tXexPsM/pT4GAME+ihKmPmjvoT4BAAAA</kf.13.value>
+		<kf.12.value Encoding="base64" Checksum="1474070945">MmNpbgIAAAABAAAABAAAAAEAAABvorY+BSWTPjMSrj7QXZI+ozK/Pjnskz4BAAAAAQAAAGtdxT69vrA++8rFPuUsoT7Z78Q+m1DAPgEAAAABAAAAqRW1PhmHyz7jpb0+S07MPnCFrD7dv8o+AQAAAAEAAACtWqY+WO2tPhvtpT4zf70+P8imPn9bnj4BAAAA</kf.12.value>
+		<kf.10.value Encoding="base64" Checksum="1426569633">MmNpbgIAAAABAAAABAAAAAEAAAAcBrg+s52PPt+3rz4Ayo4+UVTAPmVxkD4BAAAAAQAAACk9xj7IdKw+l7HGPu1anT63yMU+qI67PgEAAAABAAAAdGC2PkNNxj6vrr4+8yDHPjoSrj6JecU+AQAAAAEAAABnKag+JXapPve0pz4DkLg+2J2oPklcmj4BAAAA</kf.10.value>
+		<kf.11.value Encoding="base64" Checksum="1939521185">MmNpbgIAAAABAAAABAAAAAEAAADJTLc+dNKQPnvprj5JD5A+D7C/Pp+VkT4BAAAAAQAAAG+6xT710K0+xyXGPs2Qnj4WT8U+IhG9PgEAAAABAAAADci1PrYMyD5ZK74+38/IPsJkrT6DScc+AQAAAAEAAABmWqc+LQ6rPg3vpj5YTro+v8WnPgTOmz4BAAAA</kf.11.value>
+		<kf.9.value Encoding="base64" Checksum="1313388961">MmNpbgIAAAABAAAABAAAAAEAAACpCLg+mqWPPo68rz5w0o4+u1TAPsR4kD4BAAAAAQAAAGE8xj6zdKw+hLDGPrhenT46yMU+soq7PgEAAAABAAAAEWS2PiBHxj4psL4+SRrHPvgXrj7vc8U+AQAAAAEAAABYMKg+/nepPjO8pz78jbg+fqSoPgNimj4BAAAA</kf.9.value>
+		<kf.27.value Encoding="base64" Checksum="2949197473">MmNpbgIAAAABAAAABAAAAAEAAABxT7M+jE6KPi3bqj5Ufog+scO7Pr4ejD4BAAAAAQAAAOXPwD4LbKk+M8/BPgoNmj6T0L8+D8u4PgEAAAABAAAA2bKvPoD4wT4iJ7g+ucjDPps+pz5LKMA+AQAAAAEAAABnMqI++9qiPhUzoT4AOrI+vzGjPvh7kz4BAAAA</kf.27.value>
+		<kf.8.value Encoding="base64" Checksum="1751762337">MmNpbgIAAAABAAAABAAAAAEAAAChfrg+8BeRPpk/sD4bFpA+ob3APsQZkj4BAAAAAQAAADNsxj59EK4+AfrGPkgSnz5i3sU+uA69PgEAAAABAAAAF322PmBjxz4cvL4+M2XIPhE+rj6FYcY+AQAAAAEAAACDj6g+y2qqPrMBqD4Dabk+Ux2pPpVsmz4BAAAA</kf.8.value>
+		<kf.26.value Encoding="base64" Checksum="2451554721">MmNpbgIAAAABAAAABAAAAAEAAAABCbM+wA2KPiONqj4WR4g+2oS7PmXUiz4BAAAAAQAAALugwD74Mqk+x5rBPibGmT6ppr8+zZ+4PgEAAAABAAAAb3+vPr3pwT5S+7c+abDDPpcDpz4VI8A+AQAAAAEAAAC456E+gMSiPqbtoD5WMbI+zuGiPqxXkz4BAAAA</kf.26.value>
+		<kf.6.value Encoding="base64" Checksum="2935873953">MmNpbgIAAAABAAAABAAAAAEAAAD2c7g+Zg2XPnYZsD7+IJY+c87APs35lz4BAAAAAQAAAKCoxj6fObQ+pSrHPnMJpT6YJsY+0mnDPgEAAAABAAAAGp22PsMNzj6Z974+KfrOPplCrj5TIc0+AQAAAAEAAABuaKg+geGwPmfmpz6tEcA+duqoPlaxoT4BAAAA</kf.6.value>
+		<kf.23.value Encoding="base64" Checksum="3427439521">MmNpbgIAAAABAAAABAAAAAEAAABMNrM+kC+KPlzBqj6wmIg+Nau7Pm7Giz4BAAAAAQAAAA3xwD5w56g+09DBPjiHmT5DEcA+qEe4PgEAAAABAAAA5wuwPundwT7agLg+yXTDPvuWpz4FR8A+AQAAAAEAAAAnUaI+AyajPl1xoT49hrI+8zCjPsrFkz4BAAAA</kf.23.value>
+		<kf.5.value Encoding="base64" Checksum="3446477985">MmNpbgIAAAABAAAABAAAAAEAAAARTLg+o9WaPqj3rz5EAJo+d6DAPgGrmz4BAAAAAQAAAKaMxj4bxLc+/wHHPgCfqD5KF8Y+POnGPgEAAAABAAAAFqO2Pumt0T5/974+RoPSPqxOrj6D2NA+AQAAAAEAAACAYqg+ab+0PiXtpz6D5MM+3NeoPk+apT4BAAAA</kf.5.value>
+		<kf.25.value Encoding="base64" Checksum="636592033">MmNpbgIAAAABAAAABAAAAAEAAAAqArM+wAyKPqSIqj5wUog+qXu7Pg3Hiz4BAAAAAQAAAO6hwD7jE6k+MZXBPlWrmT6nrr8+cny4PgEAAAABAAAAMJGvPknZwT65Crg+m5PDPq8Xpz75HsA+AQAAAAEAAABt8aE+ItKiPiX+oD6zOrI+t+SiPpJpkz4BAAAA</kf.25.value>
+		<kf.3.value Encoding="base64" Checksum="2499649441">MmNpbgIAAAABAAAABAAAAAEAAACGlrc+BeadPlA3rz4AL50+uvW/Pgudnj4BAAAAAQAAAOEIxj4Wwbo+im3GPlmIqz43pMU+2PnJPgEAAAABAAAA/Sm2PmMF1T4zib4+aLzVPsfKrT5YTtQ+AQAAAAEAAACit6c+TSq4PvdSpz4JY8c+SxyoPpDxqD4BAAAA</kf.3.value>
+		<kf.24.value Encoding="base64" Checksum="4003476897">MmNpbgIAAAABAAAABAAAAAEAAACLA7M+ggOKPpyMqj4BUYg+c3q7PgK2iz4BAAAAAQAAAGSmwD7986g+XZXBPiSQmT5ot78+1le4PgEAAAABAAAAHaKvPv++wT4OGbg+gnHDPjMrpz57DMA+AQAAAAEAAABF/6E+gM6iPkcQoT5bMrI+Q+6iPqZqkz4BAAAA</kf.24.value>
+		<kf.4.value Encoding="base64" Checksum="191894689">MmNpbgIAAAABAAAABAAAAAEAAAAYRLg+9NCaPrvjrz76/Jk+cqTAPu6kmz4BAAAAAQAAALObxj495Lc+SBDHPmipqD4cJ8Y+GB/HPgEAAAABAAAA4522Puj30T5A/r4+4svSPoc9rj7oI9E+AQAAAAEAAABHRqg+meS0PrDRpz5tH8Q+3rqoPsSppT4BAAAA</kf.4.value>
+		<kf.2.value Encoding="base64" Checksum="2123034529">MmNpbgIAAAABAAAABAAAAAEAAACPFbc+Z9afPvGmrj43b58+LIS/Ppc9oD4BAAAAAQAAAFLzxT6lU7w+ESzGPuL+rD6QusU+aajLPgEAAAABAAAACki2Pjhb1z6ntr4+ZsLXPmvZrT4D9NY+AQAAAAEAAABGaqc+9t26PoUxpz64Mso+B6OnPjaJqz4BAAAA</kf.2.value>
+		<kf.0.value Encoding="base64" Checksum="1143263905">MmNpbgIAAAABAAAABAAAAAEAAADHKbc+4RijPtX0rj7gGKM+uV6/PuIYoz4BAAAAAQAAAN8Fxj5tHb4+4AXGPoYxrz7fBcY+VAnNPgEAAAABAAAAxim3Pvch2T64Xr8+9yHZPtT0rj72Idk+AQAAAAEAAACtTag+ax2+Pq1NqD5SCc0+rU2oPoQxrz4BAAAA</kf.0.value>
+		<kf.1.value Encoding="base64" Checksum="746022049">MmNpbgIAAAABAAAABAAAAAEAAACpPbc+omKiPpslrz7iRqI+tlW/PmJ+oj4BAAAAAQAAAM/JxT5POr0+EtnFPu+Crj6LusU+r/HLPgEAAAABAAAAZAa3Pn6t1z5xHr8+PsnXPlburj68kdc+AQAAAAEAAAA9eqg+0NW8PvpqqD4vjcs+f4moPnIerj4BAAAA</kf.1.value>
+		<KeyframeSetSize>30</KeyframeSetSize>
+		<IsTimeVarying>true</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>22</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="1143263905">MmNpbgIAAAABAAAABAAAAAEAAADHKbc+4RijPtX0rj7gGKM+uV6/PuIYoz4BAAAAAQAAAN8Fxj5tHb4+4AXGPoYxrz7fBcY+VAnNPgEAAAABAAAAxim3Pvch2T64Xr8+9yHZPtT0rj72Idk+AQAAAAEAAACtTag+ax2+Pq1NqD5SCc0+rU2oPoQxrz4BAAAA</StartKeyframeValue>
+		<ParameterID>6</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>마스크 패스</Name>
+	</ArbVideoComponentParam>
+	<VideoComponentParam ObjectID="21" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,28.299999237060546875,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>28.299999237060546875</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>5000.</UpperBound>
+		<LowerUIBound>300.</LowerUIBound>
+		<UpperUIBound>300.</UpperUIBound>
+		<ParameterID>7</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>마스크 페더</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="22" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+		<ParameterID>8</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>마스크 불투명도</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="23" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,3.7000000476837158203125,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>3.7000000476837158203125</CurrentValue>
+		<LowerBound>-5000.</LowerBound>
+		<UpperBound>5000.</UpperBound>
+		<LowerUIBound>300.</LowerUIBound>
+		<UpperUIBound>300.</UpperUIBound>
+		<ParameterID>9</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>마스크 확장</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="24" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>4</ParameterControlType>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>false</CurrentValue>
+		<LowerBound>false</LowerBound>
+		<UpperBound>true</UpperBound>
+		<ParameterID>10</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="25" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,2.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>3.</UpperBound>
+		<ParameterID>11</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="26" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>4294967296.</UpperBound>
+		<ParameterID>12</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="27" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,0.5,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>340282346638528859811704183484516925440.</UpperBound>
+		<ParameterID>13</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="28" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Keyframes></Keyframes>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>8</ParameterControlType>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<CurrentValue>0.</CurrentValue>
+		<LowerBound>0.</LowerBound>
+		<UpperBound>100.</UpperBound>
+		<ParameterID>16</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>Active Path Index</Name>
+	</VideoComponentParam>
+	<ArbVideoComponentParam ObjectID="29" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="2">
+		<KeyframeSetSize>0</KeyframeSetSize>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>22</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="2644352413">AAAAAAAAAAAAAAAAAAAAAA==</StartKeyframeValue>
+		<ParameterID>17</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>Additional Paths</Name>
+	</ArbVideoComponentParam>
+	<ArbVideoComponentParam ObjectID="30" ClassID="313e54d4-6903-49ad-b0bf-8262cdd10f4e" Version="2">
+		<KeyframeSetSize>0</KeyframeSetSize>
+		<IsTimeVarying>false</IsTimeVarying>
+		<IsLocked>false</IsLocked>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<ParameterControlType>22</ParameterControlType>
+		<StartKeyframePosition>-91445760000000000 </StartKeyframePosition>
+		<StartKeyframeValue Encoding="base64" Checksum="2374864269">AQAAAAAAAAA=</StartKeyframeValue>
+		<ParameterID>18</ParameterID>
+		<UnitsString></UnitsString>
+		<Node Version="1">
+		</Node>
+		<Name>Selection Data Param</Name>
+	</ArbVideoComponentParam>
+</PremiereData>
